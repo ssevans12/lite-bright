@@ -25,10 +25,13 @@ margin-left: 50px;
     box-sizing: border-box;
     width: 25px;
     height: 25px;
-    cursor: pointer;
- 
+    cursor: url('https://img.icons8.com/emoji/2x/heart-suit.png'), pointer;
 }
 
 button {
     padding: 5px;
+}
+
+button#clear {
+    background-color: lightcoral;
 }
